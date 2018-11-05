@@ -7,7 +7,7 @@ def main():
     end_date = '2018-09-10'
     data = yf.download(tickers=tickers, start=start_date, end=end_date)
     print(data.head())
-
+    pass
 
 if __name__ == '__main__':
     main()
